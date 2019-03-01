@@ -1,0 +1,35 @@
+.buttonCadastrar
+{
+	display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #20B2AA;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  position: relative;
+  left: 43%;
+}
+
+.buttonCadastrar:hover {background-color: #008B8B;}
+
+.buttonCadastrar:active 
+{
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.fundo
+{
+  background-image: url("imagens/fundo1.jpg");
+  background-repeat: no-repeat;
+    background-size:100%;
+    background-size: cover;
+  
+}
