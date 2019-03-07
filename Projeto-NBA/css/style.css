@@ -3,35 +3,45 @@
   width: 99%;
   background-color: #A4A4A4;
   border: 6px solid black;
+  padding: none;
 }
 
 #fundo
 {
   background: #A4A4A4;
+  font-family: cursive;
 }
 
-#rodape
-{
-  background: blue;
-  font-size: 20px;
-  text-align: center;
-}
 
 #telalogin
 { 
-background: url("../imagens/tela-login.png");
+background-image: url("../imagens/tela-login.png");
+background-repeat: no-repeat;
+background-size: 100%;
+bottom: 0;
+color: black;
+left: 0;
+overflow: auto;
+padding: 3em;
+position: absolute;
+right: 0;
+top: 0;
+background-size: cover;
 font-family: 16px sans-serif;
 }
 
 .login
 {
-  float: right;
-  border: 1px solid black; 
+  float: right; 
+  padding: 10px;
+  margin-right: 100px;
+  margin-top: 90px;
+  font-family: cursive;
 }
 
 #menu
 {
-  background: #c5c5b2;
+  background: #6E6E6E;
   padding: 18px;
 }
 
@@ -40,5 +50,7 @@ font-family: 16px sans-serif;
   color: black;
   text-decoration: none;
   font-weight: bold;
+
 }
+
 
