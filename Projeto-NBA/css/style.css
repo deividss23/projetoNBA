@@ -1,35 +1,44 @@
-.buttonCadastrar
+#principal
 {
-	display: inline-block;
-  padding: 15px 25px;
-  font-size: 24px;
-  cursor: pointer;
+  width: 99%;
+  background-color: #A4A4A4;
+  border: 6px solid black;
+}
+
+#fundo
+{
+  background: #A4A4A4;
+}
+
+#rodape
+{
+  background: blue;
+  font-size: 20px;
   text-align: center;
+}
+
+#telalogin
+{ 
+background: url("../imagens/tela-login.png");
+font-family: 16px sans-serif;
+}
+
+.login
+{
+  float: right;
+  border: 1px solid black; 
+}
+
+#menu
+{
+  background: #c5c5b2;
+  padding: 18px;
+}
+
+.linkmenu
+{
+  color: black;
   text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #20B2AA;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-  position: relative;
-  left: 43%;
+  font-weight: bold;
 }
 
-.buttonCadastrar:hover {background-color: #008B8B;}
-
-.buttonCadastrar:active 
-{
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-
-.fundo
-{
-  background-image: url("imagens/fundo1.jpg");
-  background-repeat: no-repeat;
-    background-size:100%;
-    background-size: cover;
-  
-}
