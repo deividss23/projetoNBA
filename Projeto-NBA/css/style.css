@@ -1,9 +1,9 @@
 #principal
 {
-  width: 99%;
+  width: 98%;
   background-color: #A4A4A4;
   border: 6px solid black;
-  padding: none;
+  margin: auto;
 }
 
 #fundo
@@ -34,10 +34,22 @@ font-family: 16px sans-serif;
 {
   float: right; 
   padding: 10px;
-  margin-right: 100px;
-  margin-top: 90px;
+  margin-right: -40px;
+  margin-top: -10px;
   font-family: cursive;
 }
+
+.cadastro
+{
+  float: right;
+  margin-top: 250px;
+  margin-left: 100px;
+  margin-right: -490px;
+  padding: 10px;
+  font-family: cursive;
+  font-size: 14px;
+}
+
 
 #menu
 {
@@ -51,6 +63,26 @@ font-family: 16px sans-serif;
   text-decoration: none;
   font-weight: bold;
 
+}
+
+#menuinicial
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.confmenu
+{
+  padding: 15px;
+  border: 1px solid black;
+  display: block;
+}
+
+.link
+{
+  width: 200px;
+  text-decoration: none;
 }
 
 
