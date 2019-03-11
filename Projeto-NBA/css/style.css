@@ -42,18 +42,6 @@ font-family: 16px sans-serif;
   font-family: cursive;
 }
 
-.cadastro
-{
-  float: right;
-  margin-top: 250px;
-  margin-left: 100px;
-  margin-right: -490px;
-  padding: 10px;
-  font-family: cursive;
-  font-size: 14px;
-}
-
-
 #menu
 {
   background: #6E6E6E;
@@ -145,4 +133,41 @@ font-family: 16px sans-serif;
 .box input[type = "submit"]:hover
 {
   background: #04B431;
+}
+
+
+
+
+
+
+
+#fundo1
+{
+  background-color: #536878;
+}
+
+.menu1
+{
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: right;
+  background-color: #536872;
+  font-style: bold;
+}
+
+.menu1 a
+{
+  margin: 10px;
+  text-decoration: blink;
+  color: white;
+  font-weight: bold;
+}
+
+.menu1 a:hover
+{
+  background-color: white;
+  padding: 15px;
+  transition: 0.1s;
+  color: black;
 }
