@@ -17,7 +17,7 @@
 			<a href="index.html">HOME</a> 
 			<a href="index.html">REGRAS</a> 
 			<a href="index.html">SOBRE NÓS</a> 
-			<a href="login.html">ENTRAR</a> 
+			<a href="login.php">ENTRAR</a> 
 		
 		</div>
 
