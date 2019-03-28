@@ -1,3 +1,4 @@
+<?php include ('verificadb.php') ?>
 <!DOCTYPE html>
 
 <html>
@@ -17,11 +18,12 @@
 	
 		<div class="login">
 
-			<form class="box">
+			<form class="box" method="post" action="login.php">
+				<?php include ('erro.php'); ?>
 				<h1>Login</h1>
-				<input autocomplete="off"placeholder="Login" type="text" name="login">
-				<input placeholder="Senha" type="password" name="senha">
-				<input type="submit" value="Login"> 			
+				<input autocomplete="off"placeholder="Login" type="text" name="username">
+				<input placeholder="Senha" type="password" name="password">
+				<input type="submit" value="Login" name="login_user"> 			
 			</form>
 				
 		</div>

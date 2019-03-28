@@ -275,3 +275,14 @@ background-size: cover;
   max-height: 10em;
 }
 /*======================== FIM TELA INICIAL ============== */
+
+.error {
+color: white;
+}
+
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
