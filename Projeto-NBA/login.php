@@ -1,4 +1,5 @@
 <?php include ('verificadb.php') ?>
+
 <!DOCTYPE html>
 
 <html>
@@ -7,7 +8,6 @@
 		<meta charset="utf-8">
 		<title>Bolão NBA - Login</title>
 		<link href="css/style.css" rel="stylesheet" type="text/css">
-		<link href="css/buttons.css" rel="stylesheet">
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link rel="icon" type="image.png" href="imagens/icon.png">
 

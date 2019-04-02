@@ -19,8 +19,8 @@
 			<form name="users" action="cadastro.php" method="post" class="box">
 				<?php include ('erro.php'); ?>
 				<h1>Cadastro</h1>
-				<input autocomplete="off"placeholder="Login" type="text" name="username" value="<?php echo $username; ?>">
-				<input autocomplete="off"placeholder="Email" type="text" name="email" value="<?php echo $email; ?>">
+				<input autocomplete="off" placeholder="Login" type="text" name="username" value="<?php echo $username; ?>">
+				<input autocomplete="off" placeholder="Email" type="text" name="email" value="<?php echo $email; ?>">
 				<input placeholder="Senha" type="password" name="password_1">
 				<input placeholder="Coloque novamente sua senha" type="password" name="password_2">
 				<input type="submit" value="Cadastrar" name="reg_user"> 			

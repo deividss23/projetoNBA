@@ -7,8 +7,7 @@
 		height: 167px;
 		margin-top: 440px;
 		position: absolute;
-		margin-left: 10px;
-		
+		margin-left: 10px;		
 	}
 </style>
 <?php  if (count($errors) > 0) : ?>
