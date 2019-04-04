@@ -5,16 +5,14 @@ include('verifica_login.php');
 <!DOCTYPE html>
 
 <html lang="pt-br">
-    
+
     <head>
-   
         <meta charset="utf-8">
         <title>Bolão NBA - Tela Inicial</title>
         <link rel="stylesheet" href="css/style.css">
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
         <link rel="icon" type="image.png" href="imagens/icon.png">
-
     </head>
   
     <body class="telainicial">
@@ -40,15 +38,15 @@ include('verifica_login.php');
                 </li>
 
 
-                <!--<li class="item" id="messages">
+                <li class="item" id="messages">
                     <a href="#messages" class="btn"><i class="fas fa-gamepad"></i>Jogos</a>
                   
                     <div class="smenu">
-                        <a href="#"><i class="fas fa-plus"></i> <?php echo "  "; ?>Cadastrar jogos</a>
+                        <a href="cadastrojogos.php"><i class="fas fa-plus"></i> <?php echo "  "; ?>Cadastrar jogos</a>
                         <a href="#">Gerenciar usuários</a>
                     </div>
 
-                </li>-->
+                </li>
 
                 <li class="item" id="settings">
                     <a href="#settings" class="btn"><i class="fas fa-cog"></i>Configurações</a>

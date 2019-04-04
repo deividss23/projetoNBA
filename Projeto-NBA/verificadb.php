@@ -77,8 +77,16 @@ if (isset($_POST['login_user']))
     if (mysqli_num_rows($results) == 1) 
     {
       $_SESSION['username'] = $username;
+
+      if($username != "admin")
+      {
       header('location: telainicial.php');
       exit();
+      }
+      else
+      {
+        header('location: telainicialADM.php');
+      }
     }
     else 
     {
