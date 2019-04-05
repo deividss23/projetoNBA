@@ -13,7 +13,13 @@
        	<script>
        function mudaimagem(item) {
                var img = document.getElementById('imagens');
-               img.innerHTML = '<img src="' + item + '">';
+               switch(item)
+               {
+               case '1':img.innerHTML = "<img src = 'imagens/boston.png' </img>"; break;
+               case '2':img.innerHTML = "<img src = 'imagens/cleveland.png' </img>"; break;              
+               
+               
+           }	
        }
 
        function mudaimagem2(item) {
@@ -37,10 +43,10 @@
 			<div id="escolha">
 				<form id="time1">
 				Time 1
-				<select onchange="mudaimagem(this.value);">
+				<select onchange="mudaimagem(value);">
 					<option> Selecione</option>
-					<option value="imagens/boston.png"> Minnesota Timberwolves</option>
-					<option value="imagens/cleveland.png"> Minnesota Timberwolves</option>
+					<option value="t1"> Boston Celtics</option>
+					<option value="t2"> Minnesota Timberwolves</option>
 
 				</select>
 				</form>
